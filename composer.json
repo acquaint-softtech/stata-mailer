@@ -1,0 +1,22 @@
+{
+    "name": "acquaint-softtech/stata-mailer",
+    "autoload": {
+        "psr-4": {
+            "AcquaintSofttech\\StataMailer\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Stata Mailer",
+            "description": "Stata Mailer addon"
+        },
+        "laravel": {
+            "providers": [
+                "AcquaintSofttech\\StataMailer\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "stillat/proteus": "^2.0"
+    }
+}
