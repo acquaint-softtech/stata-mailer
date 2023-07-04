@@ -28,8 +28,9 @@ composer require acquaint-softtech/stata-mailer
 
 ## How to Use
 
-For easy mail configuration, open the Stata mailer tool and fill up all the given parameters in the picture below.
+For easy mail configuration, open the Stata mailer `Tools > Settings` and fill up all the given parameters in the picture below.
 
+![image](https://github.com/acquaint-softtech/stata-mailer/assets/6542302/7770ad3f-ea3a-4e5c-80df-06db798ba1c4)
 
 After filling in all the necessary details, click save and let it do wonders for you. 
 
@@ -37,12 +38,12 @@ After filling in all the necessary details, click save and let it do wonders for
 
 After going through the configuration process, what if you have to check your configuration details?
 
-Open the tools tab in your Statamic dashboard and open => `Utilities / Email`. On this page, you will get a complete insight into your configured mail. 
+Open the tools tab in your Statamic dashboard and open => `Utilities > Email`. On this page, you will get a complete insight into your configured mail. 
 
 ## What if my Configuration details are not showing or not updated?
 
-Open the tools tab in your Statamic dashboard and open => `Utilities / Cache`. On this cache manager page, clear the cache data by clicking on **Clear All**.
+Open the tools tab in your Statamic dashboard and open => `Utilities > Cache`. On this cache manager page, clear the cache data by clicking on **Clear All**.
 
-After clearing the `cache`, again open up the `Utilities / Email`, and you will get the refreshed and updated data. 
+After clearing the `cache`, again open up the `Utilities > Email`, and you will get the refreshed and updated data. 
 
 
