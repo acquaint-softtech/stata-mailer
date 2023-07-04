@@ -1,5 +1,7 @@
 {
     "name": "acquaint-softtech/stata-mailer",
+    "description": "Stata mailer is a Statamic add-on that simplifies Laravel’s Mail configuration with Statamic without prior coding knowledge. Just install it and let it handle the rest.",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "AcquaintSofttech\\StataMailer\\": "src"
