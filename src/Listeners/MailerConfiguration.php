@@ -24,9 +24,9 @@ class MailerConfiguration
 
     public function smtpConfigSave($data)
     {
-        ConfigWriter::write('mail.default',$data['mailer']);
-
         // Smtp Configuration set into mail.php 
+        ConfigWriter::edit('mail')->replace('default',$data['mailer'])->save();
+
         ConfigWriter::write('mail.mailers.smtp.transport',$data['mailer']);
 
         // ConfigWriter::write('mail.mailers.smtp.host',$data['smtp_host']);

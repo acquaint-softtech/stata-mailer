@@ -1,6 +1,7 @@
 <?php
 
 namespace AcquaintSofttech\StataMailer\Events;
+
 use Statamic\Events\Event;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
